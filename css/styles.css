@@ -81,3 +81,50 @@ a {
   width: 400px;
   height: 300px;
 }
+
+.firstbox{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+}
+.header{
+  padding-top: 100px;
+  width: 300px;
+  /* padding-left: 60px; */
+  color: rgb(119, 110, 110);
+  font-family: helvetica;
+
+}
+.midsecond{
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+.thirdbox .pics{
+  width: 400px;
+  height: 400px;
+}
+.thirdbox{
+  padding-left: 70px;
+
+}
+.content-box{
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  line-height: 2em;
+  color: rgb(119, 110, 110);
+  font-family: sans-serif;
+  padding-top: 70px;
+
+}
+.midsecond{
+color: rgb(119, 110, 110);
+}
+
+ 
+
