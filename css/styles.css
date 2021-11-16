@@ -81,3 +81,25 @@ a {
   width: 400px;
   height: 300px;
 }
+
+.azeez{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 2px; 
+}
+
+.fluid{
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+h1{
+  text-align: center;
+  background-color:pink;
+}
