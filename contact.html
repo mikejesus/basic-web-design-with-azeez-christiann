@@ -7,7 +7,7 @@
     <title>Document</title>
     <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
+<body class="topcontainer">
     <header>
         <div class="navigation">
           <!--Beginning of logo-->
@@ -23,43 +23,26 @@
           </ul>
         </div>
         <div class="contactbody">
-            <form>
-
-                <h2  style="padding-left: 120px;" id="register">Registration </h2>
-                <label>First name</label><br>
-                <input type="text" required class="name">
-                <br>
-                <br>
-                <label>Last name</label><br>
-                <input type="text" required class="name">
-                <br>
-                <br>
-                <label style="color: cornflowerblue;">Country of residenc </label><br>
-                <select class="name">
-                    <option>Nigeria</option>
-                    <option>Ghana</option>
-                    <option>UK</option>
-                    <option>US</option>
-                    <option>sweden</option>
-                    <option>Australier</option>
-                    <option>New zealand</option>
-                </select>
-                <br>
-                <br>
-                <label>Phone number</label><br>
-                <input type="number" class="name">
-                <br>
-                <br>
-                <label>emial</label><br>
-                <input type="email" required class="name">
-                <br>
-                <br>
-                <label>password</label><br>
-                <input class="name" type="password" pattern=".{8,16}" reqiured title=" at least one upper case" required >
-                <br>
-                <br>
-                <input type="submit" id="page"  >
-               </form>
+           <div class="subcontact">
+             <h1>GET IN TOUCH</h1>
+             <p>phone: 08055864629</p>
+             <p>Address: 4th floor labour house,central business district,Abuja.</p>
+           </div>
+           <div class="midcontact">
+             <div id="contactbox">
+             <form>
+               <input type="text" placeholder="YOUR NAME" class="inputbox"><br>
+               <input type="email" placeholder="YOUR EMAIL" class="inputbox"><br>
+               <input type="number" placeholder="YOUR NUMBER" class="inputbox">
+             </form>
+             </div>
+             <div>
+               <textarea  cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+             </div>
+            </div>
+            <div id="bottom">
+              <input type="submit" class="button" >
+            </div>
         </div>
     
 </body>
