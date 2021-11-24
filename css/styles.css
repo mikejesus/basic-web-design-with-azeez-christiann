@@ -130,6 +130,6 @@ list-style: none;
 }
 
 .row{
-  justify-content: space-around;
+  justify-content: space-evenly;
 border-radius: 40%;
 }
