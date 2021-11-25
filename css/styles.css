@@ -168,9 +168,31 @@ textarea{
   outline: none;
   border-radius: 5px;
   height: 200px;
-  background-color: cadetblue;
+  background-color: white;
+ 
 }
 #bottom{
  text-align: center;
  margin-top: 40px;
+}
+#topper{
+  background-color:darkblue ;
+}
+#red {
+ color:rgb(119, 110, 110) ;
+ 
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+#content{
+  padding: 4% 9%;
+}
+#features{
+  padding: 5% 10%;
+}
+#writtings{
+  padding: 3% 15%;
+  text-align: center;
+  color:rgb(119, 110, 110) ;
 }
